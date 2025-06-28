@@ -8,7 +8,7 @@ const subtopics = [
     name: "CS & RA",
     links: [
       { label: "CS & RA Policy Document", url: "#" },
-      { label: "Risk Assessment Guidelines", url: "#" },
+      { label: "Risk Assessment", url: "#" },
     ],
   },
   {
