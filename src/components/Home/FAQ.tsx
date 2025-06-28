@@ -15,7 +15,7 @@ const faqs = [
   {
     question: "What documents do I need for a new connection?",
     answer:
-      "For a new connection, you'll need proof of ownership/tenancy, NIC copy, and completed application form. Additional documents may be required based on your connection type.",
+      "For a new connection, NIC copy, and completed application form. Additional documents may be required based on your connection type.",
   },
   {
     question: "How can I check my bill status?",
