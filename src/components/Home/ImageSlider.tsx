@@ -56,7 +56,7 @@ export default function ImageSlider() {
       </Slider>
 
       {/* Centered overlay content */}
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-center z-20">
+      {/* <div className="pointer-events-none absolute inset-0 flex items-center justify-center z-20">
         <div className="bg-black/60 rounded-lg px-8 py-6 md:px-14 md:py-7 flex flex-col items-center max-w-xl w-full mx-4 shadow-xl border border-white/10">
           <h1 className="text-2xl md:text-3xl font-semibold text-white mb-2 text-center tracking-tight">
             Welcome to <span className="text-blue-200 font-bold">CEB INFO</span>
@@ -67,7 +67,7 @@ export default function ImageSlider() {
             energy solutions.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
