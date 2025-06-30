@@ -14,8 +14,6 @@ import {
   UserIcon,
 } from "@heroicons/react/24/outline";
 
-
-
 const links = [
   {
     name: "CEB Web",
@@ -153,8 +151,8 @@ export default function QuickLinks() {
             connect to what matters most.
           </p>
         </div>
-        <div className="mx-auto mt-10 max-w-4xl">
-          <dl className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="mx-auto mt-10 max-w-6xl">
+          <dl className="grid grid-cols-1 sm:grid-cols-4 gap-4">
             {links.map((link) => (
               <div
                 key={link.name}
