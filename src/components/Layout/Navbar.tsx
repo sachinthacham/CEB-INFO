@@ -40,8 +40,8 @@ export default function Navbar() {
             <div className="flex items-center gap-3">
               <Link to="/" className="flex-shrink-0 flex items-center gap-2">
                 <img className="h-12 w-auto" src={ceblogo} alt="CEB INFO" />
-                <span className="text-3xl font-bold text-blue-900 tracking-tight">
-                  CEB INFO
+                <span className="text-3xl font-bold text-blue-900 tracking-tight italic">
+                  CEB <span className="italic">INFO</span>
                 </span>
               </Link>
             </div>
