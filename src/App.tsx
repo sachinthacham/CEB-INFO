@@ -17,6 +17,7 @@ import BillCalculator from "./components/BillCalculator/BillCalculator";
 import StandardStationary from "./components/StandardStationary/StandardStationary";
 import ProvidentFund from "./components/ProvidentFund/ProvidentFund";
 import OrdinarySupplyTariff from "./components/OrdinarySupplyTariff/OrdinarySupplyTariff";
+import Chatbot from "./components/Chatbot/Chatbot";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -32,13 +33,8 @@ function App() {
               <main>
                 <ImageSlider />
                 <div className="mt-12 mx-0 w-full px-4 sm:px-6 lg:px-8 py-2 bg-blue-50 ">
-                  <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 p-8">
-                    <div className="col-span-1 lg:col-span-7">
-                      <QuickLinks />
-                    </div>
-                    <div className="col-span-1 lg:col-span-5">
-                      <FAQ />
-                    </div>
+                  <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 p-8">
+                    <QuickLinks />
                   </div>
                 </div>
                 <NewsEvents />
@@ -62,6 +58,7 @@ function App() {
           />
         </Routes>
         <Footer />
+        <Chatbot />
       </div>
     </Router>
   );
